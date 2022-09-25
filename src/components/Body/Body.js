@@ -82,7 +82,8 @@ function Body() {
               </button>
             );
           }}
-          
+
+          content={() => resumeRef.current}
         /> 
       
 
