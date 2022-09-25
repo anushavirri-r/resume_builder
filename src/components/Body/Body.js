@@ -14,7 +14,7 @@ function Body() {
     project: "Projects",
     education: "Education",
     achievement: "Achievements",
-    skills: "Skills",
+   
     
   };
   const resumeRef = useRef();
@@ -46,11 +46,7 @@ function Body() {
       sectionTitle: sections.achievement,
       details: [],
     },
-    [sections.skills]: {
-      id: sections.skills,
-      sectionTitle: sections.skills,
-      details: [],
-    },
+  
     
   });
   const handleSaveToPC = (jsonData, file) => {

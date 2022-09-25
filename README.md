@@ -1,60 +1,12 @@
 # Resume Builder
 
-```javascript
+Step-1: Unzip the folder
+Step-2: Go into the folder "Resume-builder-master" and open terminal
+Step-3: In the terminal run the following
+To install the libraries and run the application
 
- sections = {
-    basicInfo: "Basic Info",
-    workExp: "Work Experience",
-    project: "Projects",
-    education: "Education",
-    achievement: "Achievements",
-    summary: "Summary",
-    other: "Other",
-  };
-
-  information = {
-    [sections.basicInfo]: {
-      id: sections.basicInfo,
-      sectionTitle: sections.basicInfo,
-      detail: {},
-    },
-    [sections.workExp]: {
-      id: sections.workExp,
-      sectionTitle: sections.workExp,
-      details: [
-        {
-          title:""
-        }
-        ,
-        {
-          title:""
-        }
-      ],
-    },
-    [sections.project]: {
-      id: sections.project,
-      sectionTitle: sections.project,
-      details: [],
-    },
-    [sections.education]: {
-      id: sections.education,
-      sectionTitle: sections.education,
-      details: [],
-    },
-    [sections.achievement]: {
-      id: sections.achievement,
-      sectionTitle: sections.achievement,
-      points: [],
-    },
-    [sections.summary]: {
-      id: sections.summary,
-      sectionTitle: sections.summary,
-      detail: "",
-    },
-    [sections.other]: {
-      id: sections.other,
-      sectionTitle: sections.other,
-      detail: "",
-    },
-
+```
+npm install
+npm run build
+npm start
 ```
