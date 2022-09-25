@@ -1,0 +1,28 @@
+.container {
+padding: 10px 10px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23E5F4FA' fill-opacity='0.33' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+  min-height: 10vh;
+}
+
+.heading {
+  margin: 0 auto;
+  max-width: 500px;
+  color: #000;
+  font-size: 2.5rem;
+  line-height: 4.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.heading span {
+  background-clip: text;
+  color: linear-gradient(#239ce2);
+  color: transparent;
+}

@@ -1,0 +1,44 @@
+{
+    "Basic Info": {
+        "id": "Basic Info",
+        "sectionTitle": "Basic Info",
+        "detail": {
+            "name": "",
+            "title": "",
+            "linkedin": "",
+            "github": "",
+            "email": "",
+            "phone": ""
+        }
+    },
+    "Work Experience": {
+        "id": "Work Experience",
+        "sectionTitle": "Work Experience",
+        "details": []
+    },
+    "Projects": {
+        "id": "Projects",
+        "sectionTitle": "Projects",
+        "details": []
+    },
+    "Education": {
+        "id": "Education",
+        "sectionTitle": "Education",
+        "details": []
+    },
+    "Achievements": {
+        "id": "Achievements",
+        "sectionTitle": "Achievements",
+        "details": []
+    },
+    "Skills": {
+        "id": "Skills",
+        "sectionTitle": "Skills",
+        "details": []
+    },
+    "Other": {
+        "id": "Other",
+        "sectionTitle": "Other",
+        "detail": ""
+    }
+}
